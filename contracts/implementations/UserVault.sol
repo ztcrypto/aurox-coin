@@ -9,8 +9,6 @@ contract UserVault is IVault {
     uint256 public price = 4000;
     ICoin public coin;
     mapping (address => Vault) private positions;
-    uint256 public totalMinted;
-    uint256 public totalCollateral;
     
     constructor(ICoin _coin){
         coin = _coin;

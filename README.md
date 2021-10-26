@@ -7,7 +7,7 @@ Fixed price state variable for eth(collateral price) is there and another setter
 
 Current `withdraw` function get repay back from the user and burn it. There's no need of allowance as directly burn the token.
 
-Possibley allowance check can be added.
+Possibley allowance check can be added as well as total collateral amount and minted amount if its needed..
 
 ## Using this Project
 
